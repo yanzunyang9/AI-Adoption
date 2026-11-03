@@ -23,7 +23,7 @@ def get_google_maps_name(hospital_name, api_key):
     return None
 
 # Google Maps API Key
-api_key = 'AIzaSyBnjZCIO5ePkHiurh-3N1aaJ__xI82uHks'
+api_key = ''
 
 # Create a new dataframe to store the results
 results = pd.DataFrame(columns=['Original Name', 'Google Maps Name'])
