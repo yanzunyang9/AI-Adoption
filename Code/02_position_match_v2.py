@@ -213,7 +213,7 @@ hospital_position_duplicates_h = hospital_position_duplicates[['Hospital Name', 
 hospital_position_duplicates_h = hospital_position_duplicates_h.drop_duplicates()
 
 # set up the API key
-openai.api_key = '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'
+openai.api_key = ''
 
 # add an empty column 'number_of_beds' to store the responses
 hospital_position_duplicates_h['number_of_beds'] = None
